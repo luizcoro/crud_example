@@ -21,15 +21,15 @@ class client_controller
     {
         switch($this->_args['action'])
         {
-        case 'select':
-            $this->handle_select();
-            break;
-        case 'select_all':
-            $this->handle_select_all();
-            break;
-        case 'find':
-            $this->handle_find();
-            break;
+        /* case 'select': */
+        /*     $this->handle_select(); */
+        /*     break; */
+        /* case 'select_all': */
+        /*     $this->handle_select_all(); */
+        /*     break; */
+        /* case 'find': */
+        /*     $this->handle_find(); */
+        /*     break; */
         case 'insert':
             $this->handle_insert();
             break;
@@ -45,22 +45,22 @@ class client_controller
         }
     }
     
-    private function handle_select()
-    {
+    /* private function handle_select() */
+    /* { */
 
 
-    }
+    /* } */
 
-    private function handle_select_all()
-    {
+    /* private function handle_select_all() */
+    /* { */
 
 
-    }
+    /* } */
 
-    private function handle_find()
-    {
+    /* private function handle_find() */
+    /* { */
 
-    }
+    /* } */
 
     private function handle_insert()
     {

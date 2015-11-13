@@ -6,6 +6,7 @@ include_once 'database.php';
 class client_dao
 {
     /* private static $_select = 'SELECT * FROM client WHERE email = :email'; */
+    //
     private static $_select_all = 'SELECT * FROM client';
     /* private static $_find   = 'SELECT * FROM client WHERE :column LIKE :value'; */ 
     private static $_insert = 'INSERT INTO client(email, name, mobile) VALUES(:email, :name, :mobile)';
